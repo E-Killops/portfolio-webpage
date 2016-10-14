@@ -1,1 +1,17 @@
-/* A custom-made stylesheet that uses cascading, the box model, and floats is included. */
+/* A custom-made stylesheet that uses *cascading, the box model, and floats is included. */
+body h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body p, ul, ol {
+  font-family: 'Libre Franklin', sans-serif;
+}
+/*
+@media (max-width: @screen-xs) {
+    body p{font-size: 10px;}
+}
+
+@media (max-width: @screen-m) {
+    body p{font-size: 14px;}
+}
+*/

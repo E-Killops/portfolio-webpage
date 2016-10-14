@@ -13,23 +13,29 @@ body p, ul, ol {
 
 
 @media (max-width: 768px) {
+    body h2, h3 {text-align: center;}
     body ul, ol, li {font-size: 12px}
     body p {font-size: 10px;}
+    .main-wrapper {
+      margin: 20px;
+      padding: -20px 34px 20px 20px;}
 }
+
 
 @media (min-width: 768px) {
     body ul, ol, li {font-size: 16px}
     body p {font-size: 14px;}
+    .main-wrapper {
+      margin: 40px;
+      padding: 0px 65px 40px 40px;}
 }
 
 .main-wrapper {
-  margin: 40px;
   background-color: white;
-  padding: 0px 40px 40px;
 }
 
-.img-responsive {
-
+.about-me {
+  padding-left: 0px 15px;
 }
 
 .about-me p {

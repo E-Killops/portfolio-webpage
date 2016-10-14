@@ -1,4 +1,4 @@
-/* A custom-made stylesheet that uses *cascading, the box model, and floats is included. */
+/* A custom-made stylesheet that uses *cascading, *box model, and floats is included. */
 body {
   background: url(../img/backgrounds/merely-cubed.png)
 }
@@ -10,6 +10,7 @@ body h1, h2, h3 {
 body p, ul, ol {
   font-family: 'Libre Franklin', sans-serif;
 }
+
 
 @media (max-width: 768px) {
     body ul, ol, li {font-size: 12px}
@@ -24,5 +25,13 @@ body p, ul, ol {
 .main-wrapper {
   margin: 40px;
   background-color: white;
-  padding-bottom: 40px;
+  padding: 0px 40px 40px;
+}
+
+.img-responsive {
+
+}
+
+.about-me p {
+  text-align: justify;
 }
